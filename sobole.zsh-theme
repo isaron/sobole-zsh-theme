@@ -15,7 +15,7 @@ if [[ "$USER" == "root" ]]; then
 elif [[ "$SOBOLE_THEME_MODE" == "dark" ]]; then
   CARETCOLOR="white"
 else
-  CARETCOLOR="black"
+  CARETCOLOR="gray"
 fi
 
 PROMPT='
@@ -40,7 +40,7 @@ function current_caret {
     if [[ "$SOBOLE_THEME_MODE" == "dark" ]]; then
       CARET_COLOR="white"
     else
-      CARET_COLOR="black"
+      CARET_COLOR="gray"
     fi
   fi
 
